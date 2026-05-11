@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("<h1>App deployed by AWS CodePipeline to EKS</h1>");
+  res.send("<h1>Hi This is Mohan</h1>");
 });
 
 app.listen(3000, () => {
